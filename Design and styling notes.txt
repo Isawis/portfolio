@@ -1,13 +1,19 @@
 
 Text sizing: 
 
-Base text: 18px
-H1: 4 rem (64px)
-H2: 1.5 rem (24px)
-H3: undefined
+Base rem: 16px
 
-P: 1 rem (18px)
-P Description: 2 rem (32px)
+0.5 rem = 8px
+1rem = 16px
+1.125 rem = 18px
+1.5 rem = 24px
+2 rem =  32px
+2.5 rem = 40px
+3 rem = 48px
+4 rem = 64px
+
+
+
 
 
 MVP TO DO

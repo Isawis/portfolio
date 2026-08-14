@@ -1,5 +1,13 @@
 :root {
 
+    --text-xxl: 4rem; 
+    --text-xl: 3rem; 
+    --text-l: 2rem; 
+    --text-m: 1.5rem;
+    --text-s: 1.125rem;
+    --text-xs: 1rem;
+    --text-xxs: 0.8rem;
+
   --plum-50: #FFF3FB;
   --plum-100: #E8DDE4;
   --plum-200: #D4C9D0;
@@ -35,11 +43,13 @@
   --20-darken: rgba(0, 0, 0, 0.2);
   --40-darken: rgba(0, 0, 0, 0.4);
   --60-darken: rgba(0, 0, 0, 0.6);
+  --20-lighten: rgba(255, 171, 171, 0.2);
+
 
   --main-bg-color: var(--plum-1000);
   --primary-text-color: var(--lilac-100);
   --secondary-text-color: var(--lilac-200);
-  --colourful-text-colour: var(--peach-200);
+  --colorful-text-color: var(--peach-200);
   --interactive-text-color: var(--peach-300);
   --menu-bg: #171416;
   --hero-bg: #171416;
@@ -48,9 +58,12 @@
   --border-radius-m: 16px; 
   --border-radius-l: 28px; 
 
-  --padding-s: 8px;
-  --padding-m: 16px;
-  --padding-l: 32px;
+  --padding-xs: 0.5rem;
+  --padding-s: 1rem;
+  --padding-m: 1.5rem;
+  --padding-l: 2rem;
+   --padding-xl: 3rem;
+  --padding-xxl: 4rem;
 
   --content-maxwidth: 1200px;
 }

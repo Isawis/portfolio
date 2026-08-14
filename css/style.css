@@ -1,14 +1,15 @@
 
 
-/* Basic Reset */
+/* Basic styling */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
+html {
   font-family: "Figtree", sans-serif;
+  font-size: 1em;
   line-height: 1.6;
   background: var(--main-bg-color);
   color: var(--primary-text-color);
@@ -28,6 +29,26 @@ img {
 
 .centered-text {
   text-align: center;
+}
+
+/* Remove default fieldset styles. */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Text selection -------------------------------------------- */
+
+::-moz-selection {
+  background: var(--20-lighten);
+  text-shadow: none;
+}
+
+::selection {
+  background: var(--20-lighten);
+  text-shadow: none;
 }
 
 /* Skip link (visible on focus) ------------------------------- */
@@ -50,13 +71,14 @@ img {
   text-decoration: none;
 }
 
-/* Header ---------------------------------------------------- */
+/* Header ---------------------------------------------- */
 
 header {
   position:fixed;
   width: 100vw;
   justify-content: left;
-  padding: 20px 2rem;
+  padding: var(--padding-s) var(--padding-l);
+  
   background-color: var(--menu-bg);
 }
 
@@ -76,11 +98,11 @@ nav ul {
   justify-content: center;
 }
 
-/* HERO ------------------------------------------------------  */
+/* HERO -----------------------------------------------  */
 
 .hero {
   width: 100vw;
-  padding:4rem;
+  padding:2rem;
   background-color: var(--hero-bg);
 }
 
@@ -89,12 +111,16 @@ nav ul {
   margin: 4rem auto;
 }
 
+<<<<<<< HEAD
 .breadcrumb a:hover {
 color: #fff;
 text-decoration: none;
 }
 
 /* MAIN BODY CONTENT ------------------------------------------------------  */
+=======
+/* MAIN BODY CONTENT -----------------------------------  */
+>>>>>>> f0c05e6ed350e154cb2a76ce539afb9abd0ed0de
 
 .body-content {
   width: 100vw;
@@ -107,10 +133,15 @@ text-decoration: none;
   margin: 4rem auto;
 }
 
-/* Divider ------------------------------------------------------  */
+/* Divider ---------------------------------------------  */
 
-.divider {
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
   border-top: 1px solid var(--peachplum);
+  margin: 1em 0;
+  padding: 0;
 }
 
 
@@ -120,10 +151,10 @@ section h2 {
   text-transform: uppercase;
 }
 
-/* ------------------------------------------------------------ */
+/* ------------------------------------------------------ */
 
 
-/* Project list */
+/* Project list ----------------------------------------- */
  .project-list {
   display: grid;
   flex-wrap: wrap;
@@ -132,7 +163,7 @@ section h2 {
   list-style: none;
 }
 
-/* cards  ----------------------------------------------------- */
+/* cards  ----------------------------------------------- */
 
 .horizontal-card {
   background-color: var(--20-darken);
@@ -146,6 +177,14 @@ section h2 {
 .horizontal-card img { 
   width: 40%;
   object-fit: cover;
+}
+
+.card-container {
+  padding: 32px 64px;
+  display:flex;
+  width:60%;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
@@ -169,17 +208,12 @@ section h2 {
   */
 
 
-.card-container {
-  padding: 32px 64px;
-  display:flex;
-  width:60%;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
-/* ----------------------------------------------------------------------- */
+
+/* ------------------------------------------------------ */
 
 /* Container holding the chips*/
+
 .badge-container ul {
   list-style: none;
   display: flex;
@@ -189,7 +223,10 @@ section h2 {
     padding: 12px 0px;
   
 }
+
+
 /* Chip design and content */
+
 .category-badge {
   background-color: var(--peachplum);
   padding: 6px 16px;
@@ -198,14 +235,67 @@ section h2 {
 }
 
 
+/* Footer ----------------------------------------------- */
 
-
-
-/* Footer ---------------------------------------------------- */
 footer {
   text-align: center;
   padding: 3rem;
   font-size: 0.9rem;
   color: var(--secondary-text-color);
   background-color: var(--footer-bg);
+}
+
+/* Screen reader ---------------------------------------- */
+
+/* Hide visually and from screen readers */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/* Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+
+/* Extends the .visually-hidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+
+/* Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
 }

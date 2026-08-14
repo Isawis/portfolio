@@ -1,13 +1,50 @@
 @media only screen and (max-width: 992px) {
 
+
+/* Text styles */
+
+h1 {
+  font-size: var(--text-xl);
+}
+
+.subheader {
+    font-size: var(--text-m);
+}
+
+.project-list h3 {
+    font-size: var(--text-m);
+}
+
+/* Header ---------------------------------------------- */
+
+header {
+  justify-content: left;
+  padding: var(--padding-s) var(--padding-m);
+}
+
+/* HERO -------------------------------------------------  */
+
+.hero {
+  padding: var(--padding-m);
+}
+
+/* MAIN BODY CONTENT ------------------------------------  */
+
+.body-content {
+  padding: var(--padding-m);
+  
+}
+
+/* Project list ----------------------------------------- */
+
+ .project-list {
+  gap: 2rem;
+}
+
+/* cards  ----------------------------------------------- */
+
   .horizontal-card {
-  background-color: var(--10-darken);
-  border-radius: var(--border-radius-m);
-  padding: 0px;
-  height: 100%;
-  display: flex;
   flex-direction: column;
-  overflow:hidden;
 }
 
 .horizontal-card img { 
@@ -16,20 +53,23 @@
 }
 
 .card-container {
-  padding: 32px 32px;
+  padding: 1.5rem;
   display:flex;
   width:100%;
   flex-direction: column;
   justify-content: space-between;
 }
 
-
- .project-list {
-  display: grid;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: stretch;
-  list-style: none;
+.about-card {
+  background-color: var(--20-darken);
+  border-radius: var(--border-radius-m);
+  padding: var(--padding-m);
+  margin-bottom: var(--padding-l);
 }
+
+
+
+
+
 
 }
