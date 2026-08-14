@@ -89,6 +89,11 @@ nav ul {
   margin: 4rem auto;
 }
 
+.breadcrumb a:hover {
+color: #fff;
+text-decoration: none;
+}
+
 /* MAIN BODY CONTENT ------------------------------------------------------  */
 
 .body-content {
