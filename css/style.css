@@ -232,7 +232,7 @@ section h2 {
 
 .persona-grid {
    display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
   gap: 1.5rem;
   margin: 0;
   padding: 0;
@@ -242,7 +242,7 @@ section h2 {
 
 .flow-grid {
    display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
   gap: 1.5rem;
   margin: 0;
   padding: 0;
