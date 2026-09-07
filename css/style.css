@@ -55,7 +55,7 @@ fieldset {
   position: absolute;
   top: -50px;
   left: 0;
-  background: var(--10-darken);
+  background: var(--peachplum);
   color: var(--interactive-text-color);
   padding: 10px;
   z-index: 100;
@@ -93,6 +93,38 @@ nav ul {
   display: flex;
   gap: 1rem;
   justify-content: center;
+}
+
+.contact-link,
+.menu-link {
+  padding: 0.75rem;
+}
+
+.contact-link:hover, 
+.contact-link:focus
+ {
+  padding: 0.75rem;
+  Background-color: var(--peachplum);
+  border-radius: 24px;
+}
+
+.menu-link {
+  padding: 0.5rem 1.125rem;
+  border-radius: 24px;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  padding: 0.5rem 1.125rem;
+  text-decoration: none;
+  Background-color: var(--peachplum);
+  border-radius: 24px;
+}
+
+.contact-link:active {
+  padding: 0.75rem;
+  Background-color: var(--plum-1000);
+  border-radius: 100%;
 }
 
 /* HERO -----------------------------------------------  */
