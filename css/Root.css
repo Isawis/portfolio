@@ -54,6 +54,7 @@
   --menu-bg: #171416;
   --hero-bg: #171416;
   --footer-bg: #171416;
+  --border-color: var(--lilac-200);
 
   --border-radius-m: 16px; 
   --border-radius-l: 28px; 
