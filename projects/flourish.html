@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/Root.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/boilerstyle.css">
-  <link rel="stylesheet" href="../css/Textstyles.css">
-  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../../css/Root.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/boilerstyle.css">
+  <link rel="stylesheet" href="../../css/Textstyles.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
 
   <script src="https://kit.fontawesome.com/9bbb0a7972.js" crossorigin="anonymous"></script>
 
@@ -40,28 +40,7 @@
   <!-- Skip link for screen readers/keyboard users -->
   <a class="skip-link" href="#main">Skip to main content</a>
 
-<header>
-    <div class="header-container">
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a class="menu-link" href="projects/index.html">Portfolio</a></li>
-          <li><a class="menu-link" href="projects/about.html">About</a></li>
-        </ul>
-      </nav>
-  
-      <nav aria-label="contact links">
-        <ul>
-          <li><a class="contact-link" href="mailto:isa.molinder@gmail.com" aria-label="email Isa"><i
-                class="fa-solid fa-envelope"></i></a></li>
-          <li><a class="contact-link" href="https://www.linkedin.com/in/isa-molinder/" target="_blank"
-                aria-label="Linkedin profile"><i
-                class="fa-brands fa-square-linkedin"></i></a>    
-          </li>
-        </ul>
-  
-      </nav>
-    </div>
-  </header>
+ {% include "header.njk" %}
 
   <main>
     <div class="hero">
@@ -235,7 +214,7 @@
           in this section, is a selection of some wireframes that ended up representing the
           final design.
         </p>
-        <img src="../img/FlourishWireframes.png"
+        <img src="../../img/FlourishWireframes.png"
           alt="A grid with 16 different wireframes from the deisgn process. These wireframes show different takes on the startup flow, task completion as well as statistics, privacy seettiongs and social connections.">
       </section>
       
@@ -245,10 +224,10 @@
           After several iterations, we had developed a high-fi prototype, accompanied by
           promotional posters, for a mental health tool we are proud to present as Flourish.
         </p>
-        <img class="padded-img" src="../img/FlourishHifi.png"
+        <img class="padded-img" src="../../img/FlourishHifi.png"
           alt="A grid with 15 different screens, showing different aspects of the user intareface. The setup flow, the task list, recieving an achievemnt, the plant views, privacy and social settings are featured.">
         
-          <img src="../img/FlourishPromo.png"
+          <img src="../../img/FlourishPromo.png"
           alt="Two promotional posters for Flourish. The first one Has the name Flourish in large letter, followeed by a shorter description of the app purposee. Below is a hand holding a phone currently displaying the user interace. The second poster has two other phones, one displaying the plant taken care of, the other one howing the initial setup of the app.">
       </section>
     </div>

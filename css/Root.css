@@ -21,6 +21,8 @@
   --plum-950: #2B2529;
   --plum-1000: #221B20;
 
+  --plum-dark: #110f11;
+
   --peach-50: #FFF8F8;
   --peach-100: #FFDCDC;
   --peach-200: #FFC1C1;
@@ -47,13 +49,15 @@
 
 
   --main-bg-color: var(--plum-1000);
+  --menu-bg: var(--plum-dark);
+  --hero-bg: var(--plum-dark);
+  --footer-bg: var(--plum-dark);
+
   --primary-text-color: var(--lilac-100);
   --secondary-text-color: var(--lilac-200);
   --colorful-text-color: var(--peach-200);
   --interactive-text-color: var(--peach-300);
-  --menu-bg: #171416;
-  --hero-bg: #171416;
-  --footer-bg: #171416;
+  
   --border-color: var(--lilac-200);
 
   --border-radius-m: 16px; 

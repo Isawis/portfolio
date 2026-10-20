@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/Root.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/boilerstyle.css">
-  <link rel="stylesheet" href="../css/Textstyles.css">
-  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../../css/Root.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/boilerstyle.css">
+  <link rel="stylesheet" href="../../css/Textstyles.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
   
   <script src="https://kit.fontawesome.com/9bbb0a7972.js" crossorigin="anonymous"></script>
 
@@ -43,28 +43,7 @@
   <!-- Skip link for screen readers/kqeyboard users -->
   <a class="skip-link" href="#main">Skip to main content</a>
 
-  <header>
-    <div class="header-container">
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a class="menu-link" href="../index.html">Portfolio</a></li>
-          <li><a class="menu-link" href="../about.html">About</a></li>
-        </ul>
-      </nav>
-  
-      <nav aria-label="contact links">
-        <ul>
-          <li><a class="contact-link" href="mailto:isa.molinder@gmail.com" aria-label="email Isa"><i
-                class="fa-solid fa-envelope"></i></a></li>
-          <li><a class="contact-link" href="https://www.linkedin.com/in/isa-molinder/" target="_blank"
-                aria-label="Linkedin profile"><i
-                class="fa-brands fa-square-linkedin"></i></a>    
-          </li>
-        </ul>
-  
-      </nav>
-    </div>
-  </header>
+  {% include "header.njk" %}
 
   <main>
     <div class="hero">
@@ -110,7 +89,7 @@
           the website content from the same service.        
         </p>
 
-        <img src="../img/SK.png"
+        <img src="../../img/SK.png"
           alt="Stockholms Kattklubb startpage">
       </section>
       
@@ -204,13 +183,13 @@
           be removed after 3 months to keep the page contents relevant.
         </p>
 
-        <img class="padded-img" src="../img/SKmedlem.png" 
+        <img class="padded-img" src="../../img/SKmedlem.png" 
           alt="Stockholms Kattklubb member's page">
 
-        <img class="padded-img" src="../img/SKavelshanar.png" 
+        <img class="padded-img" src="../../img/SKavelshanar.png" 
           alt="Stockholms Kattklubb page for members to advertise their avaiable male cats for breeding.">
 
-        <img class="padded-img" src="../img/SKuppfodaree.png" 
+        <img class="padded-img" src="../../img/SKuppfodaree.png" 
           alt="Stockholms Kattklubb page that lists the club's breeders. The page is section by cat breed, annd each section is expandible. Below each breed is contact information from breeders of that breed. ">
 
       </section>

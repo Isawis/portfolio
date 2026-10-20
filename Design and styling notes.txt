@@ -17,22 +17,22 @@ Base rem: 16px
 
 
 MVP TO DO
-- Projektsida: SK
 - Projektsida: DnD DM screen
-- Breadcrumbs for project pages
 
 
 NICE TO HAVE TO DO
-- Byt bild på SK thumbnail på portfoliosidan.
-- Byt ut bild-content på AO till maskinläsbar kod.
 - Projektbilder i projekt-heron.
 - Kategorisera projekt efter typ: UX jobb, fritidsgrejer, osv.
-- skapa token för riktigt mörka bg-färgen.
 - Indikator för vilken meny-flik man är på.
 - Lessons learned på accessibility-fel på DISK
 - Style card links
 - Make links and stuff in cards a footer thing?
 
 - Sida: Certifikat
+
+Done this commit
+
+- skapa token för riktigt mörka bg-färgen.
+
 
   

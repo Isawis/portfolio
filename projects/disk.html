@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/Root.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/boilerstyle.css">
-  <link rel="stylesheet" href="../css/Textstyles.css">
-  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../../css/Root.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/boilerstyle.css">
+  <link rel="stylesheet" href="../../css/Textstyles.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
   
   <script src="https://kit.fontawesome.com/9bbb0a7972.js" crossorigin="anonymous"></script>
 
@@ -41,28 +41,7 @@
   <!-- Skip link for screen readers/keyboard users -->
   <a class="skip-link" href="#main">Skip to main content</a>
 
-  <header>
-    <div class="header-container">
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a class="menu-link" href="../index.html">Portfolio</a></li>
-          <li><a class="menu-link" href="../about.html">About</a></li>
-        </ul>
-      </nav>
-  
-      <nav aria-label="contact links">
-        <ul>
-          <li><a class="contact-link" href="mailto:isa.molinder@gmail.com" aria-label="email Isa"><i
-                class="fa-solid fa-envelope"></i></a></li>
-          <li><a class="contact-link" href="https://www.linkedin.com/in/isa-molinder/" target="_blank"
-                aria-label="Linkedin profile"><i
-                class="fa-brands fa-square-linkedin"></i></a>    
-          </li>
-        </ul>
-  
-      </nav>
-    </div>
-  </header>
+  {% include "header.njk" %}
 
   <main>
     <div class="hero">
@@ -120,7 +99,7 @@
           Although, the design and website structured was lost as it was hosted by the university and not the student union.
         </p>
 
-        <img src="../img/diskstartpage.png" alt="The start page of Student Union DISKs website.">
+        <img src="../../img/diskstartpage.png" alt="The start page of Student Union DISKs website.">
       </section>
 
       <section><h2>Design process</h2>
@@ -160,13 +139,13 @@
           This was highly requested by active student union members, and made it easy for people to decide whether it was worth the travel or not.
         </p>
 
-        <img class="padded-img" src="../img/diskAktuellt.png" alt="">
+        <img class="padded-img" src="../../img/diskAktuellt.png" alt="">
 
-        <img class="padded-img" src="../img/diskevent.png" alt="">
+        <img class="padded-img" src="../../img/diskevent.png" alt="">
 
-        <img class="padded-img" src="../img/diskSocialamedier.png" alt="">
+        <img class="padded-img" src="../../img/diskSocialamedier.png" alt="">
 
-        <img class="padded-img" src="../img/diskNypåDSV.png" alt="">
+        <img class="padded-img" src="../../img/diskNypåDSV.png" alt="">
 
         <p class="last centered-text">
           These last to images are animated GIFs. Until I improve my Javascript skills, click each image to start or stop the animation. <br>
@@ -174,9 +153,9 @@
         </p>
 
         
-        <img class="padded-img" src="../img/diskstudiebevakning.png" alt="Animation of the DISK student support page being scrolled down section by section." data-src="../img/diskstudiebevakning.gif" onclick="this.tmp = this.src; this.src = this.dataset.src; this.setAttribute('data-src' , this.tmp)">
+        <img class="padded-img" src="../../img/diskstudiebevakning.png" alt="Animation of the DISK student support page being scrolled down section by section." data-src="../../img/diskstudiebevakning.gif" onclick="this.tmp = this.src; this.src = this.dataset.src; this.setAttribute('data-src' , this.tmp)">
 
-        <img class="padded-img" src="../img/disksektioner.png" alt="animation of the DISK section presentation page being scrolled down in a slow tempo." data-src="../img/disksektioner.gif" onclick="this.tmp = this.src; this.src = this.dataset.src; this.setAttribute('data-src' , this.tmp)">
+        <img class="padded-img" src="../../img/disksektioner.png" alt="animation of the DISK section presentation page being scrolled down in a slow tempo." data-src="../../img/disksektioner.gif" onclick="this.tmp = this.src; this.src = this.dataset.src; this.setAttribute('data-src' , this.tmp)">
       </section>
 
 

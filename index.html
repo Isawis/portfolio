@@ -40,28 +40,9 @@
   <script src="js/app.js"></script>
   <a class="skip-link" href="#main">Skip to main content</a>
 
-  <header>
-    <div class="header-container">
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a class="menu-link" href="index.html">Portfolio</a></li>
-          <li><a class="menu-link" href="about.html">About</a></li>
-        </ul>
-      </nav>
-  
-      <nav aria-label="contact links">
-        <ul>
-          <li><a class="contact-link" href="mailto:isa.molinder@gmail.com" aria-label="email Isa"><i
-                class="fa-solid fa-envelope"></i></a></li>
-          <li><a class="contact-link" href="https://www.linkedin.com/in/isa-molinder/" target="_blank"
-                aria-label="Linkedin profile"><i
-                class="fa-brands fa-square-linkedin"></i></a>    
-          </li>
-        </ul>
-  
-      </nav>
-    </div>
-  </header>
+
+
+  {% include "header.njk" %}
 
   <main>
     <div class="hero">
@@ -106,7 +87,7 @@
                 </div>
 
                 <hr class="divider" aria-hidden="true">
-                <a href="projects/aosme.html">Project: Account overview</a>
+                <a href="/projects/aosme/">Project: Account overview</a>
               </div>
             </article>
           </li>

@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/Root.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/boilerstyle.css">
-  <link rel="stylesheet" href="../css/Textstyles.css">
-  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../../css/Root.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/boilerstyle.css">
+  <link rel="stylesheet" href="../../css/Textstyles.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
   
   <script src="https://kit.fontawesome.com/9bbb0a7972.js" crossorigin="anonymous"></script>
 
@@ -41,35 +41,14 @@
   <!-- Skip link for screen readers/keyboard users -->
   <a class="skip-link" href="#main">Skip to main content</a>
 
- <header>
-    <div class="header-container">
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a class="menu-link" href="../index.html">Portfolio</a></li>
-          <li><a class="menu-link" href="../about.html">About</a></li>
-        </ul>
-      </nav>
-  
-      <nav aria-label="contact links">
-        <ul>
-          <li><a class="contact-link" href="mailto:isa.molinder@gmail.com" aria-label="email Isa"><i
-                class="fa-solid fa-envelope"></i></a></li>
-          <li><a class="contact-link" href="https://www.linkedin.com/in/isa-molinder/" target="_blank"
-                aria-label="Linkedin profile"><i
-                class="fa-brands fa-square-linkedin"></i></a>    
-          </li>
-        </ul>
-  
-      </nav>
-    </div>
-  </header>
+{% include "header.njk" %}
 
   <main>
     <div class="hero">
       <section>
 
         <nav aria-label="Breadcrumbs" class="breadcrumb">
-          <a href="../index.html">
+          <a href="/">
             <i class="fa-solid fa-chevron-left"></i>
             Back to portfolio
           </a>
@@ -178,7 +157,7 @@
           such as payments and product onboarding. 
         </p>
 
-        <img src="../img/AOSMEaudit.png" alt="A collection of screenshots mapped to key functionalities of the existing product.">
+        <img src="../../img/AOSMEaudit.png" alt="A collection of screenshots mapped to key functionalities of the existing product.">
       </section>
 
       <section>
@@ -249,7 +228,7 @@
           An example of one of the deepdives; here, the flow for downloading the transaction list in different layouts and formats was explored. 
         </p>
 
-        <img src="../img/AOSMEwireframes.png"
+        <img src="../../img/AOSMEwireframes.png"
           alt="A collection of handrawn wireframe sketches showcasing the UI for account overview download flows">
       </section>
 
@@ -257,11 +236,11 @@
         <h2>High fidelity sketches</h2>
         <h3>Account Overview</h3>
 
-        <img src="../img/AOSMEhifi1.png"
+        <img src="../../img/AOSMEhifi1.png"
           alt="A collection of sketches showcasing the UI for account overview pages in various screen ratios.">
         <h3>Transactions view</h3>
 
-        <img src="../img/AOSMEhifi2.png"
+        <img src="../../img/AOSMEhifi2.png"
           alt="A collection of sketches showcasing the UI for Transaction pages in various screen ratios.">
       </section>
       
