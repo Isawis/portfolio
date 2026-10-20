@@ -38,7 +38,7 @@ jobs:
       - name: Build with Eleventy
         run: npm run build
         env:
-          ELEVENTY_PATH_PREFIX: /Portfolio/
+          ELEVENTY_PATH_PREFIX: /portfolio/
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
