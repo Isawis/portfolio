@@ -306,6 +306,21 @@ section h2 {
 
 /* Footer ----------------------------------------------- */
 
+.not-found-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.not-found-page main {
+  display: flex;
+  flex: 1;
+}
+
+.not-found-page .hero {
+  flex: 1;
+}
+
 footer {
   text-align: center;
   padding: 3rem;
@@ -362,9 +377,41 @@ footer {
 }
 
 
-/* Hide visually and from screen readers, but maintain layout
- */
+/* Hide visually and from screen readers, but maintain layout */
 
 .invisible {
   visibility: hidden;
+}
+
+/* 404 page ----------------------------------------------- */
+
+.not-found-link {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-m);
+  background-color: var(--peach-200);
+  color: var(--peach-950);
+}
+
+.not-found-link:hover, .not-found-link:focus {
+  background-color: var(--plum-900);
+  color: var(--plum-50);
+  text-decoration: none;
+}
+
+.not-found-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--plum-dark);
+}
+.not-found-container {
+  padding-top: 64px;
+  text-align: center;
+  margin-top: 10rem;
+  margin:auto;
+  width: 100vw;
+  padding:2rem;
+  
 }

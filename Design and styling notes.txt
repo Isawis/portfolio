@@ -1,3 +1,6 @@
+To run server: 
+npx @11ty/eleventy --serve
+
 
 Text sizing: 
 
